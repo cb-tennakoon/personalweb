@@ -7,7 +7,6 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <h3>ghhhgghg ghghh</h3>
           <Route  index element={<Home/>}></Route >
           <Route  path="*" element={<NotFound/>}/>
         </Routes> 
